@@ -7,7 +7,7 @@
       <Stylesheet Src="MediaBrowser.css" DeviceDependant="true" />
       <script Type="text/javascript" Language="javascript" Src="/sitecore/shell/Controls/Rich Text Editor/InsertImage/InsertImage.js">.</script>
 
-      <CodeBeside Type="Sitecore.XA.Foundation.Multisite.Dialogs.InsertImageForm,Sitecore.XA.Foundation.Multisite"/>
+      <CodeBeside Type="Sitecore.Support.XA.Foundation.Multisite.Dialogs.InsertImageForm, Sitecore.Support.290662"/>
 
       <DataContext ID="DataContext" Root="{3D6658D8-A0BF-4E75-B3E2-D050FABCF4E1}"/>
 
