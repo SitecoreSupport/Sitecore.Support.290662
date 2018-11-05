@@ -38,7 +38,7 @@
         if (virtualChildren.Any())
         {
           #region Modified code
-          Item selectedItem = folder.Database.GetItem(context.Folder);
+          Item selectedItem = folder.Database.GetItem(context.Folder, language);
           #endregion
           if (selectedItem != null && virtualChildren.Any((Item v) => v.Axes.IsAncestorOf(selectedItem)))
           {
